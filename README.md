@@ -11,14 +11,18 @@ Welcome to the Persian Food Search Telegram Bot! This bot assists you in finding
 - **Interactive Interface**: The bot offers an interactive interface with clickable buttons for easy navigation and selection of recipes.
 
 ## How to Use
-1. Start the bot by sending the `/start` command.
-2. Provide the bot with the ingredients you have.
-3. The bot will present you with a list of Iranian dishes based on your ingredients.
-4. Click on the title of any dish to view its recipe details.
-5. Enjoy cooking delicious Iranian cuisine!
+To run the bot, follow these simple steps:
+1. Clone or download the repository.
+2. Add your Telegram bot token to the `main.py` file.
+3. Download the Persian Word Embedding model from [taesiri/PersianWordVecs](https://huggingface.co/taesiri/PersianWordVecs).
+4. Ensure that the model file `farsi-dedup-skipgram.bin` is available in your project directory.
+5. Run the `main.py` file.
+6. Start the bot by sending the `/start` command in your Telegram chat.
+
+That's it! You're all set to explore the world of Persian cuisine with our Telegram bot.
 
 ## Note
-Please note that the dataset used by this bot is not free to use. It is recommended to use this bot for personal purposes only. Additionally, developers need to download a Persian skipgram model for optimal performance.
+Please note that the dataset used by this bot is not free to use. It is recommended to use this bot for personal purposes only.
 
 ## Potential Improvements
 - **Optimized Performance**: Loading a pre-trained embedding model can enhance the search speed and efficiency of the bot.
