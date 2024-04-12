@@ -49,7 +49,7 @@ async def button_click(update: Update, context: CallbackContext):
     # Your existing logic for processing button_data
 if __name__ == "__main__":
     # Create an application using the Telegram bot token
-    application = ApplicationBuilder().token("7064472895:AAE22KqqkA7Wa9WqkE2B5cVdHbk_EZfZTE8").build()
+    application = ApplicationBuilder().token("----ADD YOUR TOKEN HERE----").build()
 
     start_handler = CommandHandler('start', start)
     message_handler = MessageHandler(filters.TEXT, get_user_choice)
